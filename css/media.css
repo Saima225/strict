@@ -1,0 +1,36 @@
+@media(max-width:575px) and (min-width:0px){
+    .footer-bottom{
+        height: 130px;
+    }
+    .copyright {
+        text-align: center;
+    }
+    .social-icon {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+}
+
+@media(max-width:767px) and (min-width:576px){
+    .footer-bottom{
+        height: 130px;
+    }
+    .copyright {
+        text-align: center;
+    }
+    .social-icon {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+}
+
+@media(max-width:991px) and (min-width:768px){
+    .copyright p{
+        font-size: 15px;
+    }
+    .social-icon ul li {
+        margin-right: 10px;
+    }
+}
